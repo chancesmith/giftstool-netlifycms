@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "npm run build:cms && npm run build:site",
+    "go": "npm run build:cms && npm run build:site",
     "build:site": "gatsby build",
     "build:cms": "cd cms && yarn && npm run build",
     "develop": "gatsby develop",
